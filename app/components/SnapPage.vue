@@ -32,7 +32,8 @@
                         width: 300,
                         height: 300,
                         keepAspectRatio: false,
-                        saveToGallery: true
+                        saveToGallery: true,
+                        cameraFacing: "front"
                     };
                     const imageAsset = await camera.takePicture(options);
                     console.log("Result is an image asset instance");
