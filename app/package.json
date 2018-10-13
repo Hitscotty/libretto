@@ -4,5 +4,12 @@
   },
   "main": "main",
   "name": "libretto",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "scribbletune": "^1.7.1",
+    "speaker": "^0.4.1",
+    "tonegenerator": "^0.3.2",
+    "waveheader": "0.0.2",
+    "web-audio-api": "^0.2.2"
+  }
 }

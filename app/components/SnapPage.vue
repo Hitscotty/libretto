@@ -38,7 +38,8 @@
                     console.log("Result is an image asset instance");
                     var image = new Image();
                     image.src = imageAsset;
-                } catch (err) {
+                    console.log(imageAsset);
+                               } catch (err) {
                     console.log("Error -> " + err.message);
                 }
             }
